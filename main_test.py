@@ -26,7 +26,7 @@ def test_volume_of_rect_prism():
   assert volume_of_rect_prism(32.56, 78.777, 17) == 43604.65
   assert volume_of_rect_prism(3.14, 20, 0.3333) == 20.93
 
-def test_hypervolume_of_4D_prism():
-  assert hypervolume_of_4D_prism(2, 2, 3, 3) == 36
-  assert hypervolume_of_4D_prism(32.56, 78.777, 1, 7) == 17954.85
-  assert hypervolume_of_4D_prism(3, 1, 4, 2) == 24
+def test_volume_of_4D_hyperrectangle():
+  assert volume_of_4D_hyperrectangle(2, 2, 3, 3) == 36
+  assert volume_of_4D_hyperrectangle(32.56, 78.777, 1, 7) == 17954.85
+  assert volume_of_4D_hyperrectangle(3, 1, 4, 2) == 24
